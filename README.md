@@ -11,4 +11,4 @@ For more information about how to use the download manager please check [startDo
 3. Full callback functions. Including start, progress and finish callbacks and more.
 
 ## Doesn't support yet:
-1. Rsuming file download.
+1. Resuming file download.
