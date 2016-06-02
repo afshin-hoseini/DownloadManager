@@ -201,9 +201,12 @@ public class DownloadManager {
         
         cancelRequested = true
         
-        for part in parts {
+        if parts != nil {
             
-            part.cancel()
+            for part in parts {
+                
+                part.cancel()
+            }
         }
         
         removePartTempFolder()
